@@ -12,3 +12,6 @@ Layout facilemente configurabile, poca estensibilità
 
 Change image when overing
 - https://cloudinary.com/guides/front-end-development/change-image-on-hover-with-html-and-css
+
+Css grid generator
+- https://cssgridgenerator.io/
