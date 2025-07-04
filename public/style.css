@@ -2,8 +2,12 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: rgb(245, 190, 140);
+ body {
+  background-image: url("house.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center;
+  background-color: #1c0033;
   color: rgb(25, 30, 20);
   font-family: Lucida Sans Unicode;
 }
