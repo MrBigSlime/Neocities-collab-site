@@ -7,3 +7,62 @@ body {
   color: rgb(25, 30, 20);
   font-family: Lucida Sans Unicode;
 }
+
+
+/*change image on hover html*/
+
+.ruby-hover {
+  height: 400px;
+  width: 300px;
+  background-image: url('images/ruby.png'); /* Initial background image */
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.ruby-hover:hover {
+  height: 425px;
+  width: 325px;
+  background-image: url('images/ruby.png'); /* Change on hover */
+}
+
+.weiss-hover {
+  height: 400px;
+  width: 300px;
+  background-image: url('images/weiss.png'); /* Initial background image */
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.weiss-hover:hover {
+  height: 425px;
+  width: 325px;
+  background-image: url('images/weiss.png'); /* Change on hover */
+}
+
+.blake-hover {
+  height: 400px;
+  width: 300px;
+  background-image: url('images/blake.png'); /* Initial background image */
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.blake-hover:hover {
+  height: 425px;
+  width: 325px;
+  background-image: url('images/blake.png'); /* Change on hover */
+}
+
+.yang-hover {
+  height: 400px;
+  width: 300px;
+  background-image: url('images/yang.png'); /* Initial background image */
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.yang-hover:hover {
+  height: 425px;
+  width: 325px;
+  background-image: url('images/yang.png'); /* Change on hover */
+}

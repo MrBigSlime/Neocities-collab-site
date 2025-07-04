@@ -10,3 +10,5 @@ Aggiunte e script carini da copiare e incollare
 Layout facilemente configurabile, poca estensibilità
 - https://goblin-heart.net/sadgrl/projects/layout-builder/
 
+Change image when overing
+- https://cloudinary.com/guides/front-end-development/change-image-on-hover-with-html-and-css
