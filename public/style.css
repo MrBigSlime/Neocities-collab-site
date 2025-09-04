@@ -12,61 +12,86 @@
   font-family: Lucida Sans Unicode;
 }
 
+.float-door1{
+  position: absolute;
+  left: 115px;
+  top: 165px;
+  scale:140%;
+}
+
+.inline-block-child {
+  display: inline-block;
+}
+
 
 /*change image on hover html*/
 
+.door-hover{
+  height: 175px;
+  width: 172px;
+  background-image: url('images/door_closed.png'); /* Initial background image */
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.3s ease-in-out; /* Smooth transition */
+}
+
+.door-hover:hover {
+  height: 175px;
+  width: 172px;
+  background-image: url('images/door_open.png'); /* Change on hover */
+}
+
 .ruby-hover {
-  height: 400px;
-  width: 300px;
+  height: 200px;
+  width: 150px;
   background-image: url('images/ruby.png'); /* Initial background image */
   background-size: cover; /* Cover the entire area of the element */
   transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
 
 .ruby-hover:hover {
-  height: 425px;
-  width: 325px;
+  height: 225px;
+  width: 175px;
   background-image: url('images/ruby.png'); /* Change on hover */
 }
 
 .weiss-hover {
-  height: 400px;
-  width: 300px;
+  height: 200px;
+  width: 150px;
   background-image: url('images/weiss.png'); /* Initial background image */
   background-size: cover; /* Cover the entire area of the element */
   transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
 
 .weiss-hover:hover {
-  height: 425px;
-  width: 325px;
+  height: 225px;
+  width: 175px;
   background-image: url('images/weiss.png'); /* Change on hover */
 }
 
 .blake-hover {
-  height: 400px;
-  width: 300px;
+  height: 200px;
+  width: 150px;
   background-image: url('images/blake.png'); /* Initial background image */
   background-size: cover; /* Cover the entire area of the element */
   transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
 
 .blake-hover:hover {
-  height: 425px;
-  width: 325px;
+  height: 225px;
+  width: 175px;
   background-image: url('images/blake.png'); /* Change on hover */
 }
 
 .yang-hover {
-  height: 400px;
-  width: 300px;
+  height: 200px;
+  width: 150px;
   background-image: url('images/yang.png'); /* Initial background image */
   background-size: cover; /* Cover the entire area of the element */
   transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
 
 .yang-hover:hover {
-  height: 425px;
-  width: 325px;
+  height: 225px;
+  width: 175px;
   background-image: url('images/yang.png'); /* Change on hover */
 }
