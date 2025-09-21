@@ -18,7 +18,7 @@ body {
 .ruby-hover {
 	height: 240px;
 	width: 190px;
-	background-image: url('images/ruby.png');
+	background-image: url('imgs/ruby.png');
 	/* Initial background image */
 	background-size: cover;
 	/* Cover the entire area of the element */
@@ -28,14 +28,14 @@ body {
 
 .ruby-hover:hover {
 	scale: 110%;
-	background-image: url('images/ruby.png');
+	background-image: url('imgs/ruby.png');
 	/* Change on hover */
 }
 
 .weiss-hover {
 	height: 180px;
 	width: 140px;
-	background-image: url('images/weiss.png');
+	background-image: url('imgs/weiss.png');
 	/* Initial background image */
 	background-size: cover;
 	/* Cover the entire area of the element */
@@ -45,14 +45,14 @@ body {
 
 .weiss-hover:hover {
 	scale: 110%;
-	background-image: url('images/weiss.png');
+	background-image: url('imgs/weiss.png');
 	/* Change on hover */
 }
 
 .blake-hover {
 	height: 200px;
 	width: 150px;
-	background-image: url('images/blake.png');
+	background-image: url('imgs/blake.png');
 	/* Initial background image */
 	background-size: cover;
 	/* Cover the entire area of the element */
@@ -62,14 +62,14 @@ body {
 
 .blake-hover:hover {
 	scale: 110%;
-	background-image: url('images/blake.png');
+	background-image: url('imgs/blake.png');
 	/* Change on hover */
 }
 
 .yang-hover {
 	height: 200px;
 	width: 160px;
-	background-image: url('images/yang.png');
+	background-image: url('imgs/yang.png');
 	/* Initial background image */
 	background-size: cover;
 	/* Cover the entire area of the element */
@@ -79,6 +79,6 @@ body {
 
 .yang-hover:hover {
 	scale: 110%;
-	background-image: url('images/yang.png');
+	background-image: url('imgs/yang.png');
 	/* Change on hover */
 }
