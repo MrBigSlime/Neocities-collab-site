@@ -1,0 +1,84 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+	background-color: #b4a0c4;
+	color: rgb(25, 30, 20);
+	font-family: Lucida Sans Unicode;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+
+/*change image on hover html*/
+
+.ruby-hover {
+	height: 240px;
+	width: 190px;
+	background-image: url('images/ruby.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+	transition: background-image 0.5s ease-in-out;
+	/* Smooth transition */
+}
+
+.ruby-hover:hover {
+	scale: 110%;
+	background-image: url('images/ruby.png');
+	/* Change on hover */
+}
+
+.weiss-hover {
+	height: 180px;
+	width: 140px;
+	background-image: url('images/weiss.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+	transition: background-image 0.5s ease-in-out;
+	/* Smooth transition */
+}
+
+.weiss-hover:hover {
+	scale: 110%;
+	background-image: url('images/weiss.png');
+	/* Change on hover */
+}
+
+.blake-hover {
+	height: 200px;
+	width: 150px;
+	background-image: url('images/blake.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+	transition: background-image 0.5s ease-in-out;
+	/* Smooth transition */
+}
+
+.blake-hover:hover {
+	scale: 110%;
+	background-image: url('images/blake.png');
+	/* Change on hover */
+}
+
+.yang-hover {
+	height: 200px;
+	width: 160px;
+	background-image: url('images/yang.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+	transition: background-image 0.5s ease-in-out;
+	/* Smooth transition */
+}
+
+.yang-hover:hover {
+	scale: 110%;
+	background-image: url('images/yang.png');
+	/* Change on hover */
+}

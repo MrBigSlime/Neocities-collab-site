@@ -2,96 +2,64 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
- body {
-  background-image: url("house.png");
-  background-repeat: no-repeat;
-    background-attachment: fixed;
-  background-position: center;
-  background-color: #1c0033;
-  color: rgb(25, 30, 20);
-  font-family: Lucida Sans Unicode;
+body {
+	background-image: url("house.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: #1c0033;
+	color: rgb(25, 30, 20);
+	font-family: Lucida Sans Unicode;
 }
 
-.float-door1{
-  position: absolute;
-  left: 115px;
-  top: 165px;
-  scale:140%;
+.float-door1 {
+	position: absolute;
+	left: 150px;
+	top: 160px;
+	scale: 130%;
 }
 
-.inline-block-child {
-  display: inline-block;
+.float-door2 {
+	position: absolute;
+	left: 350px;
+	top: 90px;
+	scale: 120%;
+}
+
+.float-door3 {
+	position: absolute;
+	left: 690px;
+	top: 90px;
+	scale: 120%;
+	transform: scaleX(-1);
+}
+
+
+.float-door4 {
+	position: absolute;
+	left: 950px;
+	top: 160px;
+	scale: 130%;
+	transform: scaleX(-1);
 }
 
 
 /*change image on hover html*/
 
-.door-hover{
-  height: 175px;
-  width: 172px;
-  background-image: url('images/door_closed.png'); /* Initial background image */
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.3s ease-in-out; /* Smooth transition */
+.door-hover {
+	height: 175px;
+	width: 172px;
+	background-image: url('images/door_closed.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+	transition: background-image 0.3s ease-in-out;
+	/* Smooth transition */
 }
 
 .door-hover:hover {
-  height: 175px;
-  width: 172px;
-  background-image: url('images/door_open.png'); /* Change on hover */
-}
-
-.ruby-hover {
-  height: 200px;
-  width: 150px;
-  background-image: url('images/ruby.png'); /* Initial background image */
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.5s ease-in-out; /* Smooth transition */
-}
-
-.ruby-hover:hover {
-  height: 225px;
-  width: 175px;
-  background-image: url('images/ruby.png'); /* Change on hover */
-}
-
-.weiss-hover {
-  height: 200px;
-  width: 150px;
-  background-image: url('images/weiss.png'); /* Initial background image */
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.5s ease-in-out; /* Smooth transition */
-}
-
-.weiss-hover:hover {
-  height: 225px;
-  width: 175px;
-  background-image: url('images/weiss.png'); /* Change on hover */
-}
-
-.blake-hover {
-  height: 200px;
-  width: 150px;
-  background-image: url('images/blake.png'); /* Initial background image */
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.5s ease-in-out; /* Smooth transition */
-}
-
-.blake-hover:hover {
-  height: 225px;
-  width: 175px;
-  background-image: url('images/blake.png'); /* Change on hover */
-}
-
-.yang-hover {
-  height: 200px;
-  width: 150px;
-  background-image: url('images/yang.png'); /* Initial background image */
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.5s ease-in-out; /* Smooth transition */
-}
-
-.yang-hover:hover {
-  height: 225px;
-  width: 175px;
-  background-image: url('images/yang.png'); /* Change on hover */
+	height: 175px;
+	width: 172px;
+	background-image: url('images/door_open.png');
+	/* Change on hover */
 }
