@@ -3,33 +3,42 @@
    "how to change link color." */
 
 body {
-	background-image: url("house.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
 	background-color: #1c0033;
 	color: rgb(25, 30, 20);
 	font-family: Lucida Sans Unicode;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
+.room {
+	height: 1044px;
+	width: 1280px;
+	background-image: url('images/house.png');
+	/* Initial background image */
+	background-size: cover;
+	/* Cover the entire area of the element */
+}
+
 .float-door1 {
 	position: absolute;
 	left: 150px;
-	top: 160px;
+	top: 345px;
 	scale: 130%;
 }
 
 .float-door2 {
 	position: absolute;
 	left: 350px;
-	top: 90px;
+	top: 275px;
 	scale: 120%;
 }
 
 .float-door3 {
 	position: absolute;
 	left: 690px;
-	top: 90px;
+	top: 270px;
 	scale: 120%;
 	transform: scaleX(-1);
 }
@@ -38,7 +47,7 @@ body {
 .float-door4 {
 	position: absolute;
 	left: 950px;
-	top: 160px;
+	top: 335px;
 	scale: 130%;
 	transform: scaleX(-1);
 }
@@ -62,4 +71,40 @@ body {
 	width: 172px;
 	background-image: url('images/door_open.png');
 	/* Change on hover */
+}
+
+.footer-grid{
+  display: grid;
+  grid-auto-rows: 1;
+  column-gap: 15px;
+}
+
+.hovertext {
+  color: white;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 90%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
 }
